@@ -74,7 +74,15 @@ To enable '`set_language`' view, add next URL patterns:
         ...
         path('', include('ok_language_tools.urls')),
     ]
-
+    
+    language_url = reverse('ok-language-tools:set-language')
+    catalog_url = '/catalog/'
+    language = 'uk'
+    set_language_url = f'{language_url}?redirect_to={catalog_url}&language={language}'
+    
+    # or using HTTP_REFERER
+    set_language_url = f'{language_url}?language={language}'
+	
 
 .. |PyPI version| image:: https://badge.fury.io/py/django-ok-language-tools.svg
    :target: https://badge.fury.io/py/django-ok-language-tools
