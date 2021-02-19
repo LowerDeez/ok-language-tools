@@ -1,6 +1,6 @@
-==================================
+=======================================
 django-ok-language-tools |PyPI version|
-==================================
+=======================================
 
 |Upload Python Package| |Code Health| |Python Versions| |PyPI downloads| |license| |Project Status|
 
