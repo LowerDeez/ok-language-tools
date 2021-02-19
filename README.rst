@@ -54,8 +54,7 @@ For example:
 Quickstart
 ==========
 
-Add '`language_redirect_middleware`' to the MIDDLEWARE configuration to redirect users to default language during a first visit:
---------------------------------------------------------------------------------------------------------------------------------
+- Add '`language_redirect_middleware`' to the MIDDLEWARE configuration to redirect users to default language during a first visit:
 
 .. code:: python
 
@@ -65,8 +64,7 @@ Add '`language_redirect_middleware`' to the MIDDLEWARE configuration to redirect
     ]
 
 
-To enable '`set_language`' view, add next URL patterns: 
--------------------------------------------------------
+- To enable '`set_language`' view, add next URL patterns: 
 
 .. code:: python
 
