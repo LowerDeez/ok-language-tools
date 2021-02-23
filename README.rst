@@ -31,7 +31,7 @@ Available settings
 
 ``LANGUAGE_TOOLS_REDIRECT_TO_QUERY_PARAMETER`` - Query parameter to get next url for '`set_language`' view.
 
-``LANGUAGE_TOOLS_QUERY_PARAMETER`` - Query parameter to get languge to translate next url for '`set_language`' view.
+``LANGUAGE_TOOLS_LANGUAGE_QUERY_PARAMETER`` - Query parameter to get languge to translate next url for '`set_language`' view.
 
 ``LANGUAGE_TOOLS_REDIRECT_EXCLUDE_PREFIXES`` - Tuple of prefixes to skip redirect for '`language_redirect_middleware`'.
 
