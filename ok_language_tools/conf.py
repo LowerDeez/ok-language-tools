@@ -20,7 +20,7 @@ REDIRECT_TO_QUERY_PARAMETER: str = getattr(
 
 LANGUAGE_QUERY_PARAMETER: str = getattr(
     settings,
-    'LANGUAGE_TOOLS_QUERY_PARAMETER',
+    'LANGUAGE_TOOLS_LANGUAGE_QUERY_PARAMETER',
     'language'
 )
 
