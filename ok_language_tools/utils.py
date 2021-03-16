@@ -15,11 +15,12 @@ __all__ = (
 )
 
 
-def get_path_from_request(request) -> str:
+def get_path_from_request(request, path: str = None) -> str:
     """
     Return current path from request, excluding language code
     """
-    path = request.get_full_path()
+    if path is None:
+        path = request.get_full_path()
 
     regex_match = language_code_prefix_re.match(path)
 
